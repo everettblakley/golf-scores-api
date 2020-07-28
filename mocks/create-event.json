@@ -1,0 +1,8 @@
+{
+  "body": "{\"grossScore\": 90, \"rating\": 69.69, \"slope\": 125, \"course\": \"Test Course Name\", \"scoreDate\": \"2020-01-02T23:28:56.782Z\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
