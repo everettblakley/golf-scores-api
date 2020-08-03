@@ -14,7 +14,7 @@ export const main = handler(async (event, context) => {
     //             as the user id of the authenticated user
     //  - 'scoreId': a unique uuid
     //  - 'grossScore': parsed score from the input data
-    //  - 'date': parsed date from the input data
+    //  - 'scoreDate': parsed date from the input data
     //  - 'rating': parsed course rating from the input data
     //  - 'slope' : parsed course slope from the input data
     //  - 'course': parsed course name from the input data
@@ -25,7 +25,7 @@ export const main = handler(async (event, context) => {
       userId: event.requestContext.identity.cognitoIdentityId,
       scoreId: uuid.v1(),
       grossScore: data.grossScore,
-      scoredAt: data.scoredAt || new Date(),
+      scoreDate: data.scoreDate || new Date(),
       rating: data.rating,
       slope: data.slope,
       course: data.course,

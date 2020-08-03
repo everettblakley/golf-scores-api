@@ -5,14 +5,12 @@ export function calculateHandicap(scores) {
     // const PCC = 0;
 
     // let differentials;
+
     // differentials = scores.map(score => {
-    //     if (score.holes === 18) {
-    //         return 113 / score.slope * (score.grossScore - score.rating - PCC);
-    //     }
-    //     else {
-    //         return 0;
-    //     }
-    // });
+    //     return score.holes === 18
+    //     ? 113 / score.slop * (score.grossScore - score.rating - PCC)
+    //     : ???
+    // })
 
     return 0;
 };

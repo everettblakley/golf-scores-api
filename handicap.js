@@ -1,5 +1,5 @@
 import handler from "./libs/handler-lib";
-import db from "./libs/database-lib-lib";
+import db from "./libs/database-lib";
 import { calculateHandicap } from "./libs/handicap-lib";
 
 export const main = handler(async (event, context) => {
